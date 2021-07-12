@@ -127,7 +127,7 @@ height: 141px;
     }
 }
 /* meadia query for tab */
-@media only screen and (min-width:688px) and (max-width:992px)
+@media only screen and (min-width:689px) and (max-width:992px)
 {
     .players .blogs .courses{
         display: grid;
