@@ -118,9 +118,11 @@ height: 141px;
         width: 100%;
     }
     .players .blogs .courses{
+        display: grid;
         grid-template-columns: repeat(1,1fr);
     }
     .player{
+        display: flex;
       flex-direction: column;
     }
 }
@@ -128,6 +130,7 @@ height: 141px;
 @media only screen and (min-width:688px) and (max-width:992px)
 {
     .players .blogs .courses{
+        display: grid;
         grid-template-columns: repeat(2,1fr);
 
     }
@@ -135,6 +138,7 @@ height: 141px;
         width: 100%;
     }
     .player{
+        display: flex;
         flex-direction: column;
     }
 }
